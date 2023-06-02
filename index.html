@@ -14,8 +14,6 @@
         <h2>Happy Mother's Day and God Bless You.</h2>
     </div>
         
-
-
     <div id="background"></div>
     <div id="chest">
       <div class="heart left side top"></div>
@@ -33,9 +31,7 @@
             <source src="Prince-Nico-Mbarga-Sweet-Mother-BellaNaija-May-2015.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
           </audio>
-    </div>
- 
-      
+    </div> 
 
 <footer>
     <style>
@@ -46,26 +42,6 @@
     </style>
     <p>Developed with &#128149; by Mario </p>
 </footer>
-
-
-<script>
-    // Set the end time to 5 seconds from now
-    const endTime = Date.now() + 7000;
-
-    // Check the time every 100 milliseconds
-    const intervalId = setInterval(() => {
-        // If the current time is past the end time, hide the loading animation and clear the interval
-        if (Date.now() > endTime) {
-            const loading = document.querySelector('.loading');
-            loading.style.display = 'none';
-            clearInterval(intervalId);
-        }
-    }, 100);
-    window.addEventListener("load", function () {
-  var loader = document.querySelector(".loading");
-});
-
-
-</script>
+<script src="app.js"></script>
   </body>
 </html>
